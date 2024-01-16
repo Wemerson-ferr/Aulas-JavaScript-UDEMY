@@ -1,0 +1,17 @@
+Em JavaScript temos os valores:
+    
+    Primitivos, que são imutáveis: string, number, boolean, undefined, null, bigInt e symbol. Quando fazemos uma atribuição, por exemplo:
+        ' let A = 0;
+          let B = a; // B recebe o valor que A está  guardando.
+
+          A = A++; // A agora é igual a 1.
+          
+          console.log(B) // imprime 0 da mesma forma, pois é uma copia do valor independente.'
+
+    Referência, que são mutáveis: array, object, function - São passados por referência na memória, por exemplo:
+        'const A = [1, 2, 3];
+         const B = A;
+
+         A.push(4);
+         console.log(A); // Imprime [1, 2, 3, 4];
+         console.log(B); // Imprime [1, 2, 3, 4] também, pois apontam para o mesmo endereço de memória.
