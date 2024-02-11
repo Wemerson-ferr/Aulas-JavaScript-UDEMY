@@ -12,6 +12,8 @@ let funcao = function(){
 };
 
 //Arrow function, basicamente uma função anonima também
+//A principal diferença é que as arrow functions não têm seu próprio this; em vez disso, elas capturam o valor de this do contexto circundante no momento em que são criadas. 
+//Isso é conhecido como "lexically scoped this" (this com escopo léxico). Vide o arquivo arrowFunction.js
 let outraFuncao = () => {
     console.log("Sou uma arrow function")
 }
