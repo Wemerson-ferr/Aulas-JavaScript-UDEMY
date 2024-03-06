@@ -1,0 +1,14 @@
+<%- include('includes/head') %> <!--Aqui estamos chamando um include com a parte HTML do head-->
+
+  <section class="container">
+    <h1>
+      Formulário teste
+    </h1>
+    <p>
+      <% for(let num in numeros) { %>
+        <%= num %>
+      <% } %>
+    </p>
+  </section>
+
+<%- include('includes/footer')%><!--Aqui estamos chamando um include com a parte HTML do footer-->
